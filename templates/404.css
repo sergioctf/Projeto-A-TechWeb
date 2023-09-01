@@ -1,0 +1,73 @@
+html,
+ body {
+   font-family: "Roboto", sans-serif;
+ }
+ 
+ body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;             
+  display: flex;             
+  flex-direction: column;    
+  align-items: center;       
+}
+
+
+.appbar {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 0.625rem 0.9375rem; /* 10px 15px convertidos em rem */
+    height: 3.125rem; /* 50px convertido em rem */
+  }
+  
+  
+.appbar .logo {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem; /* 20px convertido em rem */
+    height: 3rem; /* Definindo a altura */
+    width: auto; /* Mantendo a proporção da imagem */
+    cursor: pointer; 
+  }
+  
+.appbar .subtitle {
+      flex: 1;
+      text-align: left;
+      color: #ffffff;
+  }
+
+.card {
+    color:#000000;
+    margin-top: 10rem;          /* Adiciona um espaço entre o .appbar e o .form-card */
+    margin-bottom: 2rem; 
+    height: 15rem; /* Definindo a altura */
+    width: 65rem; /* Mantendo a proporção da imagem */
+    max-width: 500px;          /* Opcional: define uma largura máxima */
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* Alinha os filhos no centro */
+    justify-content: center;         
+    border-radius: 0.3rem;
+  }
+
+.card h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+a{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 16rem;
+    color: #2c2c2c;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0.3rem;
+    width: 24rem;              
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
